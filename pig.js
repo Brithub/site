@@ -91,19 +91,19 @@ function mouseup(e) {
      }
 }
 
-function mousedown(e) {
-  var colors = ['#ab99af','#827a7a','#467d78','#395073','#212e77'];
+// function mousedown(e) {
+//   var colors = ['#ab99af','#827a7a','#467d78','#395073','#212e77'];
   
- isUp = true;
-   for (var i = 0; i < colors.length; i++) {
-        (function(index) {
-           ct[index] = setTimeout(function() { 
-            if(isUp){
-                 pig.head.material.color = new THREE.Color(colors[index]);
-            }}, i * 1000);
-        })(i);
-    }
-}
+//  isUp = true;
+//    for (var i = 0; i < colors.length; i++) {
+//         (function(index) {
+//            ct[index] = setTimeout(function() { 
+//             if(isUp){
+//                  pig.head.material.color = new THREE.Color(colors[index]);
+//             }}, i * 1000);
+//         })(i);
+//     }
+// }
 
 
 function addLights() {
