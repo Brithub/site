@@ -35,7 +35,7 @@ function init() {
     renderer.setSize( window.innerWidth, window.innerHeight );
     renderer.shadowMapEnabled = true;
 
-    world = document.getElementById('minecraft');
+    world = document.getElementById("minecraft");
     world.appendChild(renderer.domElement);
   
   window.addEventListener('load', function(){
